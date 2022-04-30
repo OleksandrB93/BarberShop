@@ -1,0 +1,19 @@
+body {
+	background-color: white;
+	font-family: "Open Sans", sans-serif;
+}
+
+.nav-link {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.1em;
+	color: white;
+    background-color: gray;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #FF6C00;
+}
+
