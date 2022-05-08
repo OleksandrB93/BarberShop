@@ -3,17 +3,217 @@ body {
 	font-family: "Open Sans", sans-serif;
 }
 
-.nav-link {
+a {
+	text-decoration: none;
+}
+
+.nav .link {
 	font-weight: 600;
 	font-size: 12px;
-	line-height: 16px;
+	line-height: 1.3x;
 	letter-spacing: 0.1em;
 	color: white;
-    background-color: gray;
+	background-color: gray;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: #FF6C00;
+.nav .link:hover,
+.nav .link:focus,
+.tel:hover,
+.tel:focus,
+.header .btn:hover,
+.header .btn:focus,
+.hero .link:hover,
+.hero .link:focus,
+.about-btn {
+	color: #ff6c00;
 }
 
+.tel {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.3;
+	letter-spacing: 0.1em;
+
+	color: #ffffff;
+}
+.header .btn {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.3px;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	border-radius: 25px;
+	padding: 12px 20px;
+	color: #ffffff;
+	background-color: #212121;
+}
+.hero .link {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.4;
+	letter-spacing: 0.2em;
+
+	color: #fff;
+}
+
+.list {
+	list-style: none;
+}
+.uppertitle {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.4;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+
+	color: rgba(157, 164, 189, 0.6);
+}
+.hero-title {
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 1.2;
+	letter-spacing: 0.05em;
+
+	color: #ffffff;
+}
+.subtitle {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.7;
+	letter-spacing: 0.02em;
+
+	color: #9da4bd;
+}
+.slider-btn {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.4;
+	letter-spacing: 0.1em;
+
+	color: rgba(157, 164, 189, 0.6);
+	background-color: #212121;
+}
+.about .uppertitle {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.4;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+
+	color: #303030;
+}
+.about .sectoin-title {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.2;
+	letter-spacing: 0.05em;
+
+	color: #303030;
+}
+.title-about {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.7;
+	letter-spacing: 0.02em;
+
+	color: #555555;
+}
+.about .subtitle {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.02em;
+
+	color: #555555;
+}
+.about-btn {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.3;
+	letter-spacing: 0.09em;
+	border-radius: 25px;
+	padding: 12px 20px;
+	border: 1px solid #ff6c00;
+	text-transform: uppercase;
+
+	color: #303030;
+	background-color: #fff;
+}
+.price .uppertitle {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.4;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+
+	color: rgba(157, 164, 189, 0.6);
+}
+.price .sectoin-title {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.2;
+	letter-spacing: 0.05em;
+
+	color: #ffffff;
+}
+.inner-item {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.7;
+	letter-spacing: 0.02em;
+
+	color: #9da4bd;
+}
+.price-btn {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.3;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	border-radius: 25px;
+	padding: 12px 20px;
+	border: 1px solid #ff6c00;
+
+	color: #303030;
+	background-color: #ffffff;
+}
+.benefits-ampunt {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.4;
+	letter-spacing: 0.05em;
+
+	color: #303030;
+}
+.benefits-text {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 15px;
+
+	color: #303030;
+}
+.uppertitle {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.4;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+
+	color: #303030;
+}
+.sectoin-title {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.2;
+	letter-spacing: 0.05em;
+
+	color: #303030;
+}
+.subtitle {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.7;
+	letter-spacing: 0.02em;
+
+	color: #555555;
+}
